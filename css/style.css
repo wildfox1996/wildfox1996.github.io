@@ -1,0 +1,204 @@
+/*Reset*/
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+body {
+  background-color: #E4E5E5;
+  text-align: center;
+}
+
+div {
+  display: block;
+  margin: 0 auto;
+}
+
+div .center {
+  text-align: center;
+  padding-top: 7em;
+}
+
+div .btncenter {
+  text-align: center;
+  padding-top: 1em;
+}
+
+.wrapper {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+/*Header*/
+header {
+  background-color: #282C34;
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  z-index: 1;
+}
+
+header img {
+  margin-top: .45%;
+  float: left;
+}
+
+/*Introduction*/
+.intro {
+  padding-top: 50px;
+  background-color: #F1F2F2;
+  width: 100%;
+  height: 370px;
+}
+
+/*Top Navigation*/
+nav {
+  float: right;
+}
+
+nav ul {
+  list-style-type: none;
+}
+
+nav ul li {
+  display: inline-block;
+  margin-top: 1.2%;
+  margin-left: 45px;
+  text-transform: capitalize;
+}
+
+nav ul li a {
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+  font-weight: 100;
+  font-size: 90%;
+  text-decoration: none;
+  color: #D7D8D9;
+  padding-bottom: 1.4em;
+}
+
+nav ul li a:hover  {
+  border-bottom: 3px solid #FF004E;
+  color: #FF004E;
+}
+
+.about {
+  width: 100%;
+  height: 160px;
+  background-color: #E4E5E5;
+  animation-delay: 0.7s;
+}
+
+#us {
+  color: #FF004E;
+}
+
+section .about h3 {
+  padding-top: 2.6%;
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+section .about p {
+  font-family: Geneva,Tahoma,Verdana,sans-serif;
+  text-align: justify;
+  line-height: normal;
+}
+
+article {
+  padding-top: 2.8%;
+  animation-delay: 0.7s;
+}
+
+/*Keep it down
+<div id="container">
+   <div id="header"></div>
+   <div id="body"></div>
+   <div id="footer"></div>
+</div>
+
+html,
+body {
+   margin:0;
+   padding:0;
+   height:100%;
+}
+#container {
+   min-height:100%;
+   position:relative;
+}
+#header {
+   background:#ff0;
+   padding:10px;
+}
+#body {
+   padding:10px;
+   padding-bottom:60px;   /*Height of the footer
+}
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:60px;   /* Height of the footer
+   background:#6cf;
+}
+*/
+
+footer {
+  width: 100%;
+  height: 20px;
+  background-color: #282C34;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin-top: 300px;
+  position: fixed;
+}
+
+.button-signup {
+  background-color: #FF004E;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 12px;
+}
+
+.button-login {
+  background-color: #21252B;
+  border: none;
+  color: white;
+  padding: 10px 24px;
+  text-decoration: none;
+  font-size: 12px;
+  margin-left: 2px;
+}
+
+.button-signup:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid #21252B;
+  cursor: pointer;
+  box-shadow: 2px;
+  transition: all 0.3s ease 0s;
+}
+
+.button-login:hover {
+  background: white;
+  color: black;
+  border: 1px solid;
+  cursor: pointer;
+  box-shadow: 2px;
+  transition: all 0.3s ease 0s;
+}
